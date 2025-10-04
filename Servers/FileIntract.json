@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "LocalFileInteractions": {
+      "command": "C:\\Users\\sures\\.local\\bin\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "D:\\SureshKrishna\\ModelContextProtocol\\InteractWithLocalFiles\\Servers\\MCPToolsServer.py"
+      ]
+    }
+  }
+}
