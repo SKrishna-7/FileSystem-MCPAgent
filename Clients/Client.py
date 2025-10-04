@@ -18,11 +18,11 @@ async def run_memory_chat():
 
 
     print("Initializing chat...")
-    MODEL_NAME = "deepseek-r1-distill-llama-70b"
+    # MODEL_NAME = "deepseek-r1-distill-llama-70b"
 
     client = MCPClient.from_config_file(CONFIG_FILE)
-    llm = ChatGroq(model=MODEL_NAME)
-    # llm=ChatOllama(model='mistral:latest')
+    # llm = ChatGroq(model=MODEL_NAME)
+    llm=ChatOllama(model='mistral:latest')
 
 
     agent = MCPAgent(
